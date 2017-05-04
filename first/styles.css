@@ -1,0 +1,87 @@
+/*#D0021B RED
+#4A90E2  BLUE
+#4A4A4A  GRAY
+*/
+.container {
+    height: 125px;
+   
+}
+.box1 {
+    background: #D0021B;
+    height: 125px;
+    width: 220px;
+    margin: 20px;
+    display: inline-block;
+    
+}
+.box2 {
+    background: #4A90E2;
+    height: 125px;
+    width: 220px;
+    display: inline-block;
+    margin: 20px;
+    
+}
+.box3 {
+    background: #4A4A4A;
+    height: 125px;
+    width: 220px;
+    display: inline-block;
+    margin: 20px;
+    
+    
+}
+.textarea {
+    clear: both;
+    margin: 20px;
+}
+.textbox {
+    margin: 30px;
+}
+p {
+    line-height: 1.7em;
+}
+
+.main-box-red {
+    background: #D0021B;
+    height: 295px;
+    width: 230px; 
+    display: inline-block; 
+    margin-left: 20px;  
+}
+.main-box-blue {
+    background: #4A90E2;
+    height: 295px;
+    width: 515px;
+    display: inline-block;
+}
+.footer-container {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: start;
+	align-items: stretch;
+	align-content: stretch;
+    margin: 20px;
+}
+
+.footerBlue {
+    background:#4A90E2;
+    width: 520px;
+    height: 115px;
+}
+.footerRed1 {
+    background: #D0021B;
+    height: 115px;
+    width: 29px;
+    }
+.footerGray {
+    background: #4A4A4A;
+    height: 115px;
+    width: 140px;
+    }
+.footerRed2 {
+    background:#D0021B;
+    height: 115px;
+    width: 29px;
+    }
